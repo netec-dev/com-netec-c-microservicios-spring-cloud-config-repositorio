@@ -6,7 +6,7 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:3001/eureka/
 server:
-  port: ${PORT:9001}
+  port: ${PORT:9009}
 
 #
 demo:
