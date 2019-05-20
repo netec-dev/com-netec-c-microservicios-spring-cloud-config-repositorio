@@ -9,6 +9,14 @@ server:
   port: ${PORT:9001}
 
 #
+management:
+  security:
+    enabled: false
 demo:
   nombreArchivo: servicio-cliente-zona1.yml
   propiedadDinamica: Valor dinámico 1
+  # Propiedades
+  string: Servicio Cliente Con Configuración 1
+  int:
+    propiedad: 1
+
