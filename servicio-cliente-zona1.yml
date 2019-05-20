@@ -20,7 +20,7 @@ demo:
   nombreArchivo: servicio-cliente-zona1.yml
   propiedadDinamica: Valor dinámico 1
   # Propiedades
-  string: Servicio Cliente Con Configuración 1 (MODIFICADO)
+  string: Servicio Cliente Con Configuración 1 (MODIFICADO2)
   int:
     propiedad: 1
 
