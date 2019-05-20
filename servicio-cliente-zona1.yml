@@ -12,6 +12,10 @@ server:
 management:
   security:
     enabled: false
+    endpoints:
+      web:
+        exposure:
+          include: "*"
 demo:
   nombreArchivo: servicio-cliente-zona1.yml
   propiedadDinamica: Valor dinámico 1
