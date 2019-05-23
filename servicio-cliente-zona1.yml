@@ -11,4 +11,4 @@ server:
 #
 demo:
   nombreArchivo: servicio-cliente-zona1.yml
-  propiedadDinamica: Valor dinámico 1
+  propiedadDinamica: 1
