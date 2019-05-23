@@ -8,6 +8,11 @@ eureka:
 server:
   port: ${PORT:9001}
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include=*
 #
 demo:
   nombreArchivo: servicio-cliente-zona1.yml
