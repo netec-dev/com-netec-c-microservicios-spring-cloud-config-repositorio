@@ -1,0 +1,10 @@
+eureka:
+  instance:
+    hostname: localhost
+    metadataMap:
+      zone: zona1
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:3001/eureka/,http://localhost:3002/eureka/
+server:  
+  port: ${PORT:3000}
