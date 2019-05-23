@@ -17,3 +17,5 @@ management:
 demo:
   nombreArchivo: servicio-cliente-zona1.yml
   propiedadDinamica: 1
+app:
+  service-name: NOMBRE_SERVICIO
